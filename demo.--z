@@ -1,0 +1,36 @@
+/// Beispiel Programm zur Erl?uterung von --Z
+/// By Cedric Kleinjung
+///
+///
+///  Einfacher Taschenrechner f?r die vier Grundrechenarten
+///
+/// Created: 16.5.13
+/// Pr?fsummen fehlen!
+
+
+
+\002 "Das Ergebniss ist".ergebnis output.txt
+\021 / zahl1 zahl2 ergebnis
+\012 1 division
+\021 * zahl1 zahl2 ergebnis
+\012 1 multiplikation
+\021 - zahl1 zahl2 ergebnis
+\012 1 subtraktion
+\021 + zahl1 zahl2 ergebnis
+\012 1 addition
+\016 multiplikation false multiplikation
+\016 division false division
+\016 addition false addition
+\016 subtraktion false subtraktion
+\016 verfahren "/" division
+\016 verfahren "*" multiplikation
+\016 verfahren "-" subtraktion
+\016 verfahren "+" addition
+\003 rechnerDatei verfahren
+\002 "Wie soll gerechnet werden? (+,-,*,&)/) output.txt
+\003 rechnerDatei zahl2
+\002 "Nun gibt bitte die zweite Datei ein." output.txt
+\003 rechnerDatei zahl1
+\002 "Bitte gibt die erste Zahl in die Datei ".rechnerDatei.txt." ein"
+\025 "input_rechner.txt" rechnerDatei
+\002 "Taschenrechner by Cedric Kleinjung (solo)" output.txt
